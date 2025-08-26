@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    background: rgb(33, 33, 33);
+}
+
+#logo-search {
+    display: flex;
+    align-items: center; 
+    padding-left: 250px; 
+}
+
+header section img {
+    width: 200px;
+}
+
+.input-com-botao {
+    position: relative; 
+    width: 200px;
+    gap: 10px;
+}
+
+.input-com-botao input {
+    width: 585px;
+    height: 42px;
+    padding-right: 80px; 
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 50px;
+}
+
+.input-com-botao button {
+    position: absolute;
+    top: 0;
+    right: -384px;
+    height: 42px;
+    padding: 10px;
+    border: none;
+    background-color: #33333300;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding-right: 20px;
+}
+
+.lupa {
+    height: 22px;
+    width: 100%;
+}
