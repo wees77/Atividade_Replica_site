@@ -2,30 +2,42 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 header {
     display: flex;
     position: fixed;
-    height: 150px;
+    top: 0;
     width: 100%;
     background: rgb(33, 33, 33);
+    padding-bottom: 60px;
+    z-index: 1000;
 }
 
 #logo-search {
     display: flex;
     align-items: center; 
-    padding-left: 250px; 
+    padding-left: 220px; 
 }
 
 header section img {
     width: 200px;
 }
 
+.acess {
+    display: flex;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    
+}
+
 .input-com-botao {
     position: relative; 
     width: 200px;
     gap: 10px;
+    right: -20px;
 }
 
 .input-com-botao input {
@@ -54,4 +66,85 @@ header section img {
 .lupa {
     height: 22px;
     width: 100%;
+}
+
+.frete {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    right: 650px;
+    cursor: pointer;
+}
+
+.truck {
+    height: 22px;
+    width: 22px;
+}
+
+.cep {
+    color: white;
+    font-weight: 500;
+}
+
+.cadastro {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 240px;
+    gap: 20px;
+    right: 390px;
+    background-color: #3b3b3b;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.pinguim {
+    height: 22px;
+    width: 22px;
+}
+
+.coracao {
+    height: 22px;
+    width: 22px;
+}
+
+.carrinho {
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    right: 350px;
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+
+header li {
+    color: white;
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    width: 100%;
+    margin-top: 120px;
+    padding: 100px;
+    background: rgb(255, 0, 0);
+}
+
+.display {
+    background-color: tomato;
+    padding: 50px; 
+    color: white;
+    width: 70%;
 }
