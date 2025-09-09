@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Caixa de Som JBL",
+        "imagem": "./img/caixa-de-som-jbl-flip-5.png"
+    },
+    {
+        "nome": "Câmera Sony Alpha",
+        "imagem": "./img/camera-sony-alpha-a7-iii.png"
+    },
+    {
+        "nome": "Fone de Ouvido buetooth",
+        "imagem": "./img/fone-de-ouvido-bluetooth-jbl-tune-500bt.png"
+    },
+    {
+        "nome": "Monitor Samsung LED",
+        "imagem": "./img/monitor-samsung-led-23.8.png"
+    },
+    {
+        "nome": "Mouse Gamer Logitech",
+        "imagem": "./img/mouse-gamer-logitech-g-pro.png"
+    },
+    {
+        "nome": "Notebook Dell Inspiron",
+        "imagem": "./img/notebook-dell-inspiron-15-3000.png"
+    },
+    {
+        "nome": "Smartphone Samsung Galaxy S21",
+        "imagem": "./img/smartphone-samsung-galaxy-s21.png"
+    }
+]
