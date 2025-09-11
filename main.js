@@ -1,6 +1,6 @@
 'use strict';
 
-function criarProduto(produto) {
+function criarProduto (produto) {
   const cards = document.createElement('div');
   cards.classList.add('cards');
 
@@ -23,10 +23,14 @@ function criarProduto(produto) {
   categoria.classList.add('categoria')
   categoria.textContent = produto.categoria;
 
+  cards.addEventListener('click', () => {
+    alert(`Você clicou no produto: ${produto.nome}`);
+  });
+
   const classificacao = document.createElement('span');
   classificacao.innerHTML = criaEstrelas(produto.classificacao); // ⭐️ SVG
 
-  cards.append(img, nome, descricao, preco, categoria, classificacao);
+  cards.append(img, classificacao, nome, descricao, preco, categoria);
   document.getElementById('produtos').appendChild(cards);
 }
 
@@ -56,5 +60,7 @@ function criaEstrelas(qtd) {
 
 // Iniciar
 carregarProdutos();
+
+
 
   
