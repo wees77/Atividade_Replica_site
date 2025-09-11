@@ -164,4 +164,7 @@ const produtos = [
     container.appendChild(card);
   });
   
+  function mostrarAlerta(){
+    alert("Você tem certeza que deseja esse produto?")
+  }
   

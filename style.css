@@ -156,11 +156,11 @@
     gap: 30px;
     padding: 10px;
     max-width: 100%;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none;
   }
   
   .categorias-container::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
+    display: none; 
   }
   
   .categoria-item {
@@ -182,6 +182,7 @@
     border-radius: 10px;
     background: #f3f3f3;
     padding: 10px;
+
   }
   
   .categoria-item p {
@@ -288,6 +289,13 @@
     flex-direction: column;
     gap: 6px;
   }
+
+  .produto-card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: 0.5s; 
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.553);
+  }
   
   /* Texto "Patrocinado" */
   .produto-patrocinado {
@@ -300,7 +308,7 @@
   .produto-nome {
     font-size: 14px;
     font-weight: bold;
-    color: #333;
+    color: #000000;
     margin: 4px 0;
     line-height: 1.2em;
     height: 2.4em;
@@ -314,7 +322,7 @@
     align-items: center;
     gap: 4px;
     font-size: 13px;
-    color: #333;
+    color: #000000; 
     margin-bottom: 5px;
   }
   
